@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ua">
+  
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Portfolio</title>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo-div">
+      <a class="navbar-logo" href=""><img class="logo" src="img/Daco_2473909.png"></a>
+    </div>
+
+    <ul class="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+  </header>
+
+  <main>
+    <div class="block">
+      <div class="info">
+        <div class="title">ПРИВІТ, Я АЛЬБІНА</div>
+        <div class="text">
+          Мені 17 років. Зараз я займаюсь програмуванням та вчуся у колледжі на 121 спеціальність "Інженерія програмного забезпечення".
+          Моє життя було завжди зв'язано з комп'ютерами. Мене кожен день можна було побачити за комп'ютером або за приставкою. Раніше я не думала,що я буду якось зв'язана з програмуванням.
+          Але мій дядя почав писати плагіни на мові JAVA,я дивилася і мені це було цікаво,тому я вирішила піти до курсів,це були курси Web-програмування. 
+        </div>
+      </div>
+      <div class="img">
+        <img src="img/photo_2023-09-23_09-04-00.jpg" width="500px" alt="" onclick="openImage(this)">
+      </div>
+    </div>
+    <hr>
+    <div class="block">
+      <div class="img">
+        <img src="img/Shkola_251.PNG" width="500px" alt=""  onclick="openImage(this)">
+      </div>
+      <div class="info">
+        <div class="title">Школа</div>
+        <div class="text">
+           Навчалася я у 251 школі міста Києва. Я потрапила до математичного класу. Взагалі школа з поглибленою англійскою мовою. У третьому класі я була відміннецею,але після п'ятого класу навчання трохи погірашлося. 
+           Про школу у мене залишилися тількі негативні спогади,тому що я не знаходила спільну мову з вчителями.
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="block">
+      
+      <div class="info">
+        <div class="title">Коледж</div>
+        <div class="text">
+           У колледжі я навчаюсь вже 3-й рік. Сюди я змогла вступити до бюджтеного місця,але до стипендії трохи не дотягнула. Спочатку з моїми однокурсниками були проблеми,
+           не змогли знайти спільну мову. Через деякий час всі почали дуже файно спілкуватися між собою. Навчатися я буду 4 курси,а після піти одразу працювати.
+        </div>
+      </div>
+      <div class="img">
+        <img src="img/kmrf.jpg" width="500px" alt=""  onclick="openImage(this)">
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="info">Альбіна Тирон</div>
+    <div class="copiright">Всі права захищено © 2023</div>
+  </footer>
+
+  <div id="modal" class="modal">
+    <span class="close" onclick="closeImage()">&times;</span>
+    <img id="modal-image" class="modal-content">
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
